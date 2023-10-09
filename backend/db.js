@@ -1,6 +1,6 @@
 const mongoose= require('mongoose')
 
-const url = "mongodb+srv://amrutapede:7meA6RqZAi0bigTc@cluster0.gtelvph.mongodb.net/quora-clone-mern?retryWrites=true&w=majority";
+const url = "mongodb+srv://amrutapede:password@cluster0.gtelvph.mongodb.net/quora-clone-mern?retryWrites=true&w=majority";
 
 module.exports.connect = () => {
     mongoose
